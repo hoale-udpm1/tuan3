@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prime</title>
+</head>
+<body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prime</title>
+</head>
+<body>
+<h1>Kiểm tra số nguyên tố</h1>
+<input type="text" id="inputNumber" placeholder="nhập số">
+<input type="button" onclick="submit()" value="Kiểm tra"><br>
+<h2 id="result"></h2>
+
+<script>
+    /*
+    function isPrime(num) {
+    if(num < 2) return false;
+    for (var i = 2; i < num; i++) {
+    if(num%i==0)
+    return false;
+    }
+    return true;
+    }
+    for(var i = 0; i < 100; i++){
+    if(isPrime(i)) document.write(i + '<br>');
+    }
+*/
+    function submit() {
+        let numbers = document.getElementById("inputNumber").value;
+        let count = 0;
+        let N = 2;
+        while (count < numbers) {
+            if (isPrime(N)) {
+                document.getElementById("result").innerHTML += N + ";";
+                count++;
+            } N = N + 1;
+        }
+    }
+    function isPrime(N) {
+        if (N < 2)
+            return false;
+        for (let i = 2; i <= Math.sqrt(N); i++) {
+            if (N % i === 0)
+                return false;
+        } return true;
+    }
+</script>
+</body>
+</html>
