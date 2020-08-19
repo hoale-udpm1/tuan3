@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>post6</title>
+</head>
+<body>
+<div id="sum"></div>
+<input onclick="caculateSum()" type="button" value="Tong 30 so dau tien chia het 7">
+<script>
+    function caculateSum() {
+        let sum = document.getElementById("sum");
+        for ( i = 1; i <=30 ; i++) {
+            sum.innerHTML = +sum.innerHTML + +(7 * i);
+        }
+    }
+</script>
+
+</body>
+</html>

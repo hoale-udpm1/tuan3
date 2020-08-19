@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>post4</title>
+</head>
+<body>
+<script>
+    let fib = [0, 1];
+    for(let i=fib.length; i%5==0; i++) {
+        fib[i] = fib[i-2] + fib[i-1];
+    }
+    document.write(fib);
+</script>
+</body>
+</html>

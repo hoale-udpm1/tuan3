@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>post2</title>
+</head>
+<body>
+Nhập số
+<input type="text" size="4" maxlength="4" name="factor">
+<input type="button" onclick="factorial(this.form)" value="factorate"><br><br>
+<input type="text" size="40" maxlength="40" name="result">
+</form>
+<script>
+    let factored = 1;
+
+    function factorial(form) {
+
+        let number = form.factor.value;
+        let n = number;
+
+        for (i = n; i>0 ; i--){
+            if (n>170)	{
+                form.result.value="Hey! that is too big";
+            }
+            else	{
+                if (i==n)	{
+                    factored= i;
+                }
+                else	{
+                    factored = factored*(i);
+                }
+                form.result.value=factored;
+            }
+
+        }
+
+        return factored;
+    }
+
+</script>
+</body>
+</html>

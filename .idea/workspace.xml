@@ -20,8 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7030e587-bda2-40a1-9b43-dab4deaf5c1b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/monday/practice1/Post1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monday/practice1/post2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monday/practice1/post3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monday/practice1/post4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monday/practice1/post5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monday/practice1/post6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monday/practice1/post7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monday/practice1/post8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wednesday/practice2/post1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wednesday/practice2/post2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/monday/practice1/Post1.html" beforeDir="false" afterPath="$PROJECT_DIR$/monday/practice1/Post1.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +76,8 @@
       <updated>1597626467109</updated>
       <workItem from="1597626468250" duration="16821000" />
       <workItem from="1597657807699" duration="2035000" />
+      <workItem from="1597726039601" duration="751000" />
+      <workItem from="1597798961431" duration="312000" />
     </task>
     <servers />
   </component>
@@ -83,6 +94,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="309" y="42" key="#Inspections" timestamp="1597652376693">

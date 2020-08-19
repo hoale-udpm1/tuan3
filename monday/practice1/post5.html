@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>post5</title>
+</head>
+<body>
+<input id="inputNum" type="text" placeholder="Input n Fibonacci!">
+<input onclick="displaySeriNum()" type="button" value="Enter">
+<div id = "displayFibo"></div>
+<div id="sum"></div>
+
+<script>
+    // let fib = [0, 1];
+    // for(let i=fib.length; i<20; i++) {
+    //     fib[i] = fib[i-2] + fib[i-1];
+    //     sum = fib[i];
+    // }
+    //
+    // document.write(sum);
+    //C1
+    function displaySeriNum() {
+        let displayFibo = document.getElementById("displayFibo");
+        let sum = document.getElementById("sum")
+        let inputNum = document.getElementById("inputNum").value;
+        let f1 = 0;
+        let f2 = 1;
+        for ( i = 1; i <=(inputNum) ; i++) {
+            displayFibo.innerHTML +=  f1 + " "
+            sum.innerHTML = +sum.innerHTML + f1;
+            f = f1 + f2;
+            f1 = f2;
+            f2 = f;
+        }
+    }
+
+</script>
+</body>
+</html>

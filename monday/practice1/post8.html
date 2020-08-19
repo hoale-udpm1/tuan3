@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>post8</title>
+</head>
+<body>
+<div align="center">
+    <h1>Cùng chơi nào </h1>
+    <input type="button" value="Chơi" onclick="play()">
+</div>
+<script>
+    function play(){
+        let a = +prompt("nhập số (1-10): ");
+        let r = Math.round(10*Math.random());
+        if(a==r){
+            alert("chúc mừng bạn đã chiến thắng");
+        }else
+            alert("Sai rồi!! " + r + " Chúc bạn may mắn lần sau!");
+
+    }
+</script>
+</body>
+</html>
