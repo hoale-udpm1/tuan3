@@ -5,38 +5,75 @@
     <title>post3</title>
 </head>
 <body>
-Nhập số
-<input type="text" size="4" maxlength="4" name="factor">
-<input type="button" onclick="factorial(this.form)" value="factorate"><br><br>
-<input type="text" size="40" maxlength="40" name="result">
-</form>
 <script>
-    let factored = 1;
-
-    function factorial(form) {
-
-        let number = form.factor.value;
-        let n = number;
-
-        for (i = n; i>0 ; i--){
-            if (n>170)	{
-                form.result.value="Hey! that is too big";
-            }
-            else	{
-                if (i==n)	{
-                    factored= i;
-                }
-                else	{
-                    factored = factored*(i);
-                }
-                form.result.value=factored;
-            }
-
+   /* //Hien thi dialog -> cho phep nhap gia tri cua N
+    let N = prompt('Nhap gia tri N')
+    //Chuyen kieu du lieu cua N tu string toi int
+    N = parseInt(N)
+    //xay dung do cao cua hinh tam giac 1
+    for(let i=0;i<=N;i++) {
+        //tao hang (row) *
+        for(j=0;j<=i;j++) {
+            document.writeln(" * ")
         }
 
-        return factored;
+        //xuong dong khi hien thi ket qua cua tung hang
+        document.writeln("<br/>")
     }
+    //xay dung do cao cua hinh tam giac 2
+    for(let i=0;i<=N;i++) {
+        //tao hang (row) *
+        for(j=i;j<=N;j++) {
+            document.writeln(" * ");
+        }
 
+        //xuong dong khi hien thi ket qua cua tung hang
+        document.writeln("<br/>");*/
+   tamGiacVuongTrai(10);
+   document.write("<br>");
+   tamGiacVuongTraiNguoc(10);
+   document.write("<br>");
+   tamGiacVuongPhai(10);
+   document.write("<br>");
+   tamGiacVuongPhaiNguoc(10);
+   function tamGiacVuongTrai(rows){
+       for(let i=1;i<=rows;i++){
+           for(let j=1;j<=i;j++){
+               document.write("*");
+           }
+           document.write("<br>")
+       }
+   }
+   function tamGiacVuongTraiNguoc(rows){
+       for(let i=rows;i>=1;i--){
+           for(let j=1;j<=i;j++){
+               document.write("*");
+           }
+           document.write("<br>")
+       }
+   }
+   function tamGiacVuongPhai(rows) {
+       for(let i=1;i<=rows;i++){
+           for(j=1;j<=rows;j++){
+               if(j<=rows-i)
+                   document.write("&nbsp;&nbsp;");
+               else
+                   document.write("*");
+           }
+           document.write("<br>");
+       }
+   }
+   function tamGiacVuongPhaiNguoc(rows) {
+       for(let i=rows;i>=1;i--){
+           for(j=1;j<=rows;j++){
+               if(j<=rows-i)
+                   document.write("&nbsp;&nbsp;");
+               else
+                   document.write("*");
+           }
+           document.write("<br>");
+       }
+   }
 </script>
 </body>
 </html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>post5</title>
+</head>
+<body>
+<!--Bài 5: Viết chương trình tính lãi ngân hàng (lãi mẹ đẻ lại con)
+ khi biết số tiền ban đầu, số tháng cho vay và lãi xuất hàng tháng.-->
+
+<p>Hãy nhập số tiền ban đầu</p>
+<input type="number" id="num">
+<p>Hãy nhập số tháng cho vay</p>
+<input type="number" id="months">
+<p>Hãy nhập lãi suất hàng tháng (đơn vị %)</p>
+<input type="num" id="rate"> <br><br>
+<input type="button"  onclick="showMoney()" value="Tính lãi">
+<p id="result"></p>
+<script>
+    function showMoney(){
+        let startMoney=parseFloat(document.getElementById("num").value);
+        let months=parseInt(document.getElementById("months").value);
+        let rate=parseFloat(document.getElementById("rate").value);
+        let interest=0;
+        let result=document.getElementById("result");
+        let output;
+        for (let i = 1; i <=months ; i++) {
+            interest=(startMoney*rate)/100;
+            output=startMoney+interest;
+            startMoney=output;
+        } result.innerHTML="Tổng tiền lãi sau " + months+ " tháng" +" bằng "+ output;
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>thamkhao</title>
+</head>
+<body>
+<script>
+function twoTriangleUp(height) {
+
+for (let i = 0; i < height; i++) {
+for (let j = height - i; j > 0; j--) {
+document.write("&nbsp;&nbsp;");
+}
+for (let k = 1; k < i * 2 + 1; k++) {
+document.write("*");
+}
+for (let j = height - i; j > 0; j--) {
+document.write("&nbsp;&nbsp;&nbsp;&nbsp");
+}
+for (let k = 1; k < i * 2 + 1; k++) {
+document.write("*");
+}
+document.write("<br>");
+}
+}
+
+function downTriangle(height){
+
+for (let i = 0; i < height*2; i++) {
+for (let j = 0; j < i; j++) {
+document.write("&nbsp;&nbsp;");
+}
+for (let k = height*3.9-(i*2-1); k > 1; k--) {
+document.write("*");
+}
+document.write("<br>");
+}
+}
+
+
+function main(){
+let height = parseInt(prompt("height: "));
+twoTriangleUp(height);
+downTriangle(height);
+}
+main();
+</script>
+</body>
+</html>

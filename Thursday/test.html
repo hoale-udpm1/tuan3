@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let maxRow = 0;
+    let indexOfMaxRow = 0;
+    for (let column = 0; column < matrix[0].length; column++) {
+        maxRow += matrix[0][column];
+    }
+    for (let row = 1; row < matrix.length; row++) {
+        let totalOfThisRow = 0;
+        for (let column = 0; column < matrix[row].length; column++)
+            totalOfThisRow += matrix[row][column];
+        if (totalOfThisRow > maxRow) {
+            maxRow = totalOfThisRow;
+            indexOfMaxRow = row;
+        }
+    }
+    document.write("Row " + indexOfMaxRow + " has the maximum sum of " + maxRow);
+</script>
+</body>
+</html>

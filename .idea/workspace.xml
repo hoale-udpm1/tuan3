@@ -20,17 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7030e587-bda2-40a1-9b43-dab4deaf5c1b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/monday/practice1/post2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/monday/practice1/post3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/monday/practice1/post4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/monday/practice1/post5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/monday/practice1/post6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/monday/practice1/post7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/monday/practice1/post8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wednesday/practice2/post1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wednesday/practice2/post2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thursday/sample screen.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thursday/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wednesday/practice2/post5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wednesday/practice2/post6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wednesday/practice2/thamkhao.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/monday/practice1/Post1.html" beforeDir="false" afterPath="$PROJECT_DIR$/monday/practice1/Post1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wednesday/practice2/post3.html" beforeDir="false" afterPath="$PROJECT_DIR$/wednesday/practice2/post3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wednesday/practice2/post4.html" beforeDir="false" afterPath="$PROJECT_DIR$/wednesday/practice2/post4.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +74,9 @@
       <workItem from="1597626468250" duration="16821000" />
       <workItem from="1597657807699" duration="2035000" />
       <workItem from="1597726039601" duration="751000" />
-      <workItem from="1597798961431" duration="312000" />
+      <workItem from="1597798961431" duration="12893000" />
+      <workItem from="1597826621459" duration="3043000" />
+      <workItem from="1597889610141" duration="5469000" />
     </task>
     <servers />
   </component>
