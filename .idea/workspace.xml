@@ -20,14 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7030e587-bda2-40a1-9b43-dab4deaf5c1b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Thursday/sample screen.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thursday/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wednesday/practice2/post5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wednesday/practice2/post6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wednesday/practice2/thamkhao.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thursday/caro.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thursday/caro.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thursday/caro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thursday/carosimple.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thursday/max_number.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thursday/reverse.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thursday/tim so.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wednesday/practice2/post3.html" beforeDir="false" afterPath="$PROJECT_DIR$/wednesday/practice2/post3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wednesday/practice2/post4.html" beforeDir="false" afterPath="$PROJECT_DIR$/wednesday/practice2/post4.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +38,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -55,6 +57,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -76,7 +79,8 @@
       <workItem from="1597726039601" duration="751000" />
       <workItem from="1597798961431" duration="12893000" />
       <workItem from="1597826621459" duration="3043000" />
-      <workItem from="1597889610141" duration="5469000" />
+      <workItem from="1597889610141" duration="7232000" />
+      <workItem from="1597911452485" duration="4289000" />
     </task>
     <servers />
   </component>

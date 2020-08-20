@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>caro</title>
+    <link rel="stylesheet" href="caro.css" type="text/css">
+    <script src="caro.js" type="text/javascript"></script>
+</head>
+<body>
+<form>
+    <input class="knot" onclick="wie = 'Player 1'; initieer()" type=button value="Player 1" title="chơi lại" name="chọn để chơi" Width="164px">
+    <table border="0px" cellpadding="0px" cellspacing="0px">
+        <caption>
+            <script>
+                <!--//
+                for (i = 1; i < 10; i++) {
+                    if (i % 3 == 1) {document.write('<tr>');
+                    }
+                    document.write('<td><input Type="Button" Name="' + i + '" Value="    " Class="grade" onClick="wijzig(this.form,this)"></td>');
+                    if (i % 3 == 0) {document.write('</tr>');}
+                }
+                //-->
+            </script>
+        </caption>>
+        <tbody>
+        <tr>
+            <td></td></tr></tbody></table>
+    <input id=autmat
+           title="Click here to change from 2 players or computergame"
+           onclick="if (this.value == 'Computer') {this.value = '2 players'; auto = 0} else {this.value = 'Computer'; auto = 1}; wie = 'Player 1'; initieer();"
+           type=checkbox value="2 players" name=automaat><label for=autmat>against the computer</label>
+
+    <table cellSpacing=0 cellPadding=0 border=1>
+        <tbody>
+        <tr bgColor=#c0c0c0>
+            <td align=middle>Player 1&nbsp;</td>
+            <td align=middle>Player 2&nbsp;</td>
+            <td align=middle>Remise&nbsp;</td></tr>
+        <td bgColor=#c0c0c0>
+            <td align=middle><input title="Player 1"
+                                    style="BORDER-RIGHT: 0px solid; BORDER-TOP: 0px solid; BORDER-LEFT: 0px solid; BORDER-BOTTOM: 0px solid; BACKGROUND-COLOR: transparent; TEXT-ALIGN: center"
+                                    readOnly size=3 value=0 name=speler1></td>
+
+            <td align=middle><input title="Player 2"
+                                    style="BORDER-RIGHT: 0px solid; BORDER-TOP: 0px solid; BORDER-LEFT: 0px solid; BORDER-BOTTOM: 0px solid; BACKGROUND-COLOR: transparent; TEXT-ALIGN: center"
+                                    readOnly size=3 value=0 name=speler2></td>
+            <td align=middle><input title=Remise
+                                    style="BORDER-RIGHT: 0px solid; BORDER-TOP: 0px solid; BORDER-LEFT: 0px solid; BORDER-BOTTOM: 0px solid; BACKGROUND-COLOR: transparent; TEXT-ALIGN: center"
+                                    readOnly size=3 value=0 name=remise></td></td></tbody></table>
+
+    </table>
+</form>
+</body>
+</html>
