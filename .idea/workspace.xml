@@ -20,14 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7030e587-bda2-40a1-9b43-dab4deaf5c1b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Thursday/caro.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thursday/caro.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thursday/caro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thursday/carosimple.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thursday/max_number.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thursday/reverse.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thursday/tim so.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/friday/(-) between.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/friday/capital.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/friday/myColor.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thursday/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/Thursday/test.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,9 +34,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -80,7 +77,8 @@
       <workItem from="1597798961431" duration="12893000" />
       <workItem from="1597826621459" duration="3043000" />
       <workItem from="1597889610141" duration="7232000" />
-      <workItem from="1597911452485" duration="4289000" />
+      <workItem from="1597911452485" duration="5718000" />
+      <workItem from="1597972740702" duration="2459000" />
     </task>
     <servers />
   </component>
