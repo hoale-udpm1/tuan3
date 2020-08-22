@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>type anthing slowly</title>
+</head>
+<body>
+<h2>TYPE ANTHING SLOWLY</h2>
+<form>
+    <textarea name="txt" id="txt" cols="40" rows="10" onkeydown="txtarea()";></textarea>
+</form>
+<script>
+    let text = ('1.Ăn quả nhớ kẻ trồng cây…..còn tôi thì uống nước cũng nhớ tới người trồng cây…. ');
+    let texts = text.split('');
+    let n = "";
+    console.log(texts)
+        function txtarea(){
+        let a = document.getElementById('txt').value;
+        let j = a.length;
+        if(j > 0)
+    {
+        for(var i=1; i<=j; i++)
+        {
+            n = n + texts[i];
+            if(i == texts.length-1)
+            {
+                document.getElementById('txt').value = "";
+                n = "";
+            }
+        }
+    }
+    document.getElementById('txt').value = n;
+    n="";
+    setTimeout("txtarea()", 1);
+    }
+</script>
+</body>
+</html>

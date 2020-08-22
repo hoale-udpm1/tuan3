@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>greater than 10</title>
+</head>
+<body>
+<script>
+    let arr=[6, 10, 25, 3, 45, 77, 14, 20, 61, 17];
+    document.write("<br>Max value: "+ maxValue(arr));
+
+    function maxValue(arr){
+        let size=arr.length;
+        let i=0;
+        if(size>0){
+            for(i=0;i<size;i++){
+                if(arr[i]>10){
+                    max=arr[i];
+                    break;
+                }
+            }
+            for(;i<size;i++){
+                if(arr[i]>10 && arr[i]>max){
+                    max=arr[i];
+                }
+            }
+            return max;
+        }
+        else
+            return "Mang rong";
+    }
+
+</script>
+</body>
+</html>

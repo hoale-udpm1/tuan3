@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>dictionnary</title>
+</head>
+<body>
+<input type="text" value="nhập tìm kiếm" id="search">
+<input type="button" value="Tìm kiếm" id="" onclick="tranSlate()">
+<p id="display"></p>
+<script>
+    function tranSlate() {
+        let word = document.getElementById("search").value;
+        let english = ["Run", "Book", "Travel", "Sing"];
+        let vietnamese = ["Chạy", "Sách", "Du lịch", "Hát"];
+        let result = "";
+        for (let i = 0; i < english.length; i++) {
+            if (word === vietnamese[i]) {
+                result = " - Tiếng Anh: " + english[i];
+                break;
+            } else if (word === english[i]) {
+                result = " - Tiếng Việt: " + vietnamese[i];
+                break;
+            } else {
+                result = "Không tìm thấy! ";
+            }
+        }
+        document.getElementById("display").innerHTML = result;
+    }
+</script>
+</body>
+</html>
