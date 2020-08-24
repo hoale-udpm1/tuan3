@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>post7</title>
+</head>
+<body>
+<h1>Kiểm tra số </h1>
+<input type="number" id="num" placeholder="vui lòng nhập số bạn muốn kiểm tra"><br>
+<input type="button" value="kiểm tra" onclick="number(arr)">
+<input type="button" value="Xóa" onclick="delnumber(arr)">
+<p id="res"></p>
+<p id="rest"></p>
+<script>
+    let arr=[9,3,12,19,11,18];
+    let i;
+    let size =arr.length,x;
+
+    function number(arr) {
+
+
+        x = +document.getElementById("num").value;
+
+
+        for (i = 0; i < size; i++) {
+
+            if (arr[i] === x) {
+
+                document.getElementById("res").innerText = " is in the array";
+
+                break;
+            }else if (i === size-1){
+
+                document.getElementById("res").innerText ="is not in the array";
+
+            }
+
+        }
+
+    }
+    function delnumber(arr){
+        for (i=0;i<size-1;i++){
+            if (arr[i] == x) {
+                arr.splice(i, 1)
+            }
+        }document.getElementById("rest").innerText=arr;
+    }
+</script>
+</body>
+</html>

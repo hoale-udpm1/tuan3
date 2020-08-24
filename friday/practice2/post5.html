@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>post5</title>
+</head>
+<body>
+<h3> Input first string: </h3>
+<input type="text" id="str1">
+<h3> Input second string: </h3>
+<input type="text" id="str2">
+<br>
+<br>
+<button onclick="check()">Check</button>
+<hr>
+<h3>Result: </h3>
+<p id="result"></p>
+</body>
+<script>
+    function check() {
+        let string1 = document.getElementById("str1").value;
+        let string2 = document.getElementById("str2").value;
+        if (string1 === string2) {
+            document.getElementById("result").innerHTML = "First String is SIMILAR TO Second String";
+        } else {
+            document.getElementById("result").innerHTML = "First String is UNLIKE TO Second String";
+        }
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>post8</title>
+</head>
+<body>
+<input type="button" onclick="numValue(arr)" value="Chuyển đổi">
+<p id="push"></p>
+
+<script>
+
+    let arr=[9,3,12,19,11,18];
+
+    function numValue(arr){
+        let size=arr.length;
+
+        for (i=0; i<size-1; i++){
+            for (j=i+1;j<size; j++){
+                if (arr[i]> arr[j]){
+                    let temp = arr[i];
+                    arr[i] = arr[j];
+                    arr[j] = temp;
+                }
+            }document.getElementById("push").innerText = arr
+        }
+    }
+</body>
+</html>

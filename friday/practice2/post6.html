@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>post6</title>
+</head>
+<body>
+<h3>Input array: </h3>
+<p>(Use "Space" between 2 characters - Example: dad black 2 - 4343)</p>
+<input type="text" id="arr">
+<button onclick="changeChar();">Change</button>
+<hr>
+<h3>RESULT: </h3>
+<p id="result"></p>
+</body>
+<script>
+    function changeChar() {
+        let input = document.getElementById("arr").value;
+        let arr = [];
+        let size = arr.length;
+        arr = input.split(" ");
+        for (let i = 0; i < size; i++) {
+            if (arr[i] === "-") {
+                arr[i] = "_";
+            }
+        }
+        document.getElementById("result").innerHTML = arr;
+    }
+</script>
+</body>
+</html>

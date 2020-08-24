@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>post5</title>
+</head>
+<body>
+<script>
+    let arr=[6, 10, 25, 3, 45, 77, 14, 20, 61, 17];
+   document.write("<br>tổng số ấm là: " + negValune(arr));
+
+   function negValune(arr){
+       let amount = 0;
+       let size = arr.length;
+       for (let i = 0; i < size; i++) {
+           if(arr[i]<0){
+               amount = amount + 1;
+           }
+       }return amount;
+   }
+</script>
+</body>
+</html>

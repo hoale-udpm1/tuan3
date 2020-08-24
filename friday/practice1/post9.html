@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>post9</title>
+</head>
+<body>
+<input type="button" value="chuyển đổi" onclick="numVal()">
+<p id="ar3"></p>
+<script>
+    let a =[9,10,1,12,3];
+    let b =[2,4,6,8];
+    let c =[];
+
+    function numVal(){
+
+        for( let i=0,j=0 ;i<a.length; i++ ){
+            c[j]=a[i];
+            j++;
+            c[j]=b[i];
+            j++;
+        }
+        document.getElementById("ar3").innerText = c;
+    }
+
+</body>
+</html>

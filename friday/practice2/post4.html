@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>post4</title>
+</head>
+<body>
+<script>
+    let size = +prompt("Nhập vào: ","");
+    let count = 0;
+    let str = [];
+    for (let i = 0; i < size; i++) {
+        str[i] = prompt("Element " + i);
+    }
+    document.write("- Chuỗi vừa nhập có trong mảng: " + str + "<br>");
+
+    for (let j = 0; j < str.length; j++) {
+        count++;
+    }
+    document.write("- Chuỗi trên có: " + count + " từ");
+
+</script>
+</body>
+</html>
